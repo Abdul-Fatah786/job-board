@@ -1,12 +1,12 @@
 import React from 'react'
-// import { faHeart } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaHeart } from "react-icons/fa";
+
 
 const JobRow = () => {
     return (
         <div className="bg-white p-4 rounded-md shadow-sm relative">
             <div className='absolute cursor-pointer top-4 right-4 '>
-                {/* <FontAwesomeIcon className="size-4 text-gray-300" icon={faHeart} /> */}
+                <FaHeart className='text-gray-500 size-4' />
             </div>
             <div className="flex grow gap-4">
                 <div className='content-center'>
